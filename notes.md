@@ -20,9 +20,11 @@ Common unit test tools for unit tests:
 - Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
 
 ### Integration Tests
-When we combine [units](#unit-tests) into an interconnected set, we are performing integration. So, an integration test evaluates the behavior of, or interactions between, a set of interdependent units.
+When we combine [units](#unit-tests) into an interconnected set, we are performing integration. 
 
-A common misconception is that integration tests require a fully deployed system or application. Tests run against a deployed system are called [end-to-end tests](#end-to-end-tests).
+So, an integration test evaluates the behavior of, or interactions between, a set of interdependent units.
+
+A common misconception is that integration tests are always applied to deployed system or application. See the section on [end-to-end testing](#end-to-end-tests).
 
 Common unit test tools:
 - C#: [Xunit](https://xunit.net/)
