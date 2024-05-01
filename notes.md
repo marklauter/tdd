@@ -1,4 +1,4 @@
-# ![tdd logo](tdd.png) TDD Notes
+# Software Test Notes
 
 ## What's a test?
 A test is an examination of facts that confirms a hypothesis.
