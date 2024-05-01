@@ -10,7 +10,10 @@ A test is not a proof. We cannot even prove the correctness of a simple program 
 ## What are some kinds of tests?
 
 ### Unit Tests
-- validate behavior of individual code components, like classes or functions, in isolation.
+A unit is the smallest testable part of an application or domain context. A unit might be a function, class, or small set of codependent classes like `LinkedList` and `LinkedListNode`. 
+
+So, a unit test evaluates the behavior of a unit in isolation. Validating behavior is the what not the why. I'll cover the why later.
+
 - test tools
   - C# Xunit
   - Java Junit
