@@ -1,14 +1,27 @@
 # TDD notes
 
-## what is a test
-A test is an examination of facts that confirms hypothesis.
+## What's a test?
+A test is an examination of facts that confirms a hypothesis.
 
-## what are the kinds of tests
-- unit - verifies individual code components, like classes or functions, in isolation. test tool: Xunit
-- integration - verifies interaction between sets of components. test tool: Xunit
-- end-to-end - verifies use case scenarios, or workflows, against the deployed application. test tool: Xunit
-- static code analysis (hints, warnings, sonar) - scan code on merge for best practice conformity, secrets, maintainability. test tool: LINT, Sonar, Roslyn. related: editorconfig
-- dynamic code analysis - purpose identify runtime issues like memory leaks and performance issues. test tool: OWASP ZAP, etc
+## What are some kinds of tests?
+
+### Unit Tests
+- verifies individual code components, like classes or functions, in isolation. test tool: Xunit
+
+### Integration Test
+- verifies interaction between sets of components. test tool: Xunit
+
+### End-to-End Tests
+- verifies use case scenarios, or workflows, against the deployed application. test tool: Xunit
+
+### Static Code Analysis
+- (hints, warnings, sonar)
+- scan code on merge for best practice conformity, secrets, maintainability.
+- test tool: LINT, Sonar, Roslyn. related: editorconfig
+
+### Dynamic Analysis 
+- purpose identify runtime issues like memory leaks and performance issues.
+- test tool: OWASP ZAP, etc
 
 ## what's the point of /unit/ testing
 - what's a unit? the smallest possible source code block that provides value within a domain context
