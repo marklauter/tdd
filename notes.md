@@ -32,6 +32,10 @@ Common unit test tools:
 - Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
 
 ### End-to-End Tests
+End-to-end generally means "all aspects of" a system, process, or domain context. Within the context of software testing, end-to-end refers to the execution of a workflow from start to finish.
+
+So, an end-to-end test evaluates a system as it performs a particular workflow. This includes interactions with external systems such as databases and APIs. This can lead to confusion between end-to-end tests and [integration tests](#integration-tests).
+
 - verifies use case scenarios, or workflows, against the deployed application. test tool: Xunit
 
 Common unit test tools:
