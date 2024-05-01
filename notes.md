@@ -14,11 +14,6 @@ A unit is the smallest testable part of an application or domain context. A unit
 
 So, a unit test evaluates the behavior of a unit in isolation. Behavior evaluation is the what not the why. I'll cover the why later.
 
-Common unit test tools for unit tests:
-- C#: [Xunit](https://xunit.net/)
-- Java: [Junit](https://junit.org/)
-- Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
-
 ### Integration Tests
 When we combine [units](#unit-tests) into an interconnected set, we are performing integration. 
 
@@ -26,21 +21,10 @@ So, an integration test evaluates the behavior of, or interactions between, a se
 
 A common misconception is that integration tests are always applied to deployed system or application. See the section on [end-to-end testing](#end-to-end-tests).
 
-Common unit test tools:
-- C#: [Xunit](https://xunit.net/)
-- Java: [Junit](https://junit.org/)
-- Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
-
 ### End-to-End Tests
 End-to-end generally means "all aspects of" a system, process, or domain context. Within the context of software testing, end-to-end refers to the execution of a workflow from start to finish.
 
 So, an end-to-end test evaluates a system as it performs a particular workflow. This includes interactions with external systems such as databases and APIs. But don't confuse end-to-end tests with [integration tests](#integration-tests). The difference is the scope. While an end-to-end test encompasses the entirety of the system and its dependencies, integration tests limit scope to a smaller set of interconnected components.
-
-Common unit test tools:
-- C#: [Xunit](https://xunit.net/)
-- Java: [Junit](https://junit.org/)
-- Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
-- Other: New Relic, testRigor, Headspin, Nightwatch, Mabl, Avo Assure, SmartBear, Mobot, Cypress, Testcafe
 
 ### Static Code Analysis
 - (hints, warnings, sonar)
@@ -50,6 +34,24 @@ Common unit test tools:
 ### Dynamic Analysis 
 - purpose identify runtime issues like memory leaks and performance issues.
 - test tool: OWASP ZAP, etc
+
+### Some common test tools
+- For unit tests and integration tests
+  - C#: [Xunit](https://xunit.net/)
+  - Java: [Junit](https://junit.org/)
+  - Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
+- For E2# tests
+  - any of the unit test or integration test tools
+  - New Relic
+  - testRigor
+  - Headspin
+  - Nightwatch
+  - Mabl
+  - Avo Assure
+  - SmartBear
+  - Mobot
+  - Cypress
+  - Testcafe
 
 ## what's the point of /unit/ testing
 - what's a unit? the smallest possible source code block that provides value within a domain context
