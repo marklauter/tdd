@@ -40,7 +40,7 @@ So, an end-to-end test evaluates a system as it performs a particular workflow. 
   - C#: [Xunit](https://xunit.net/)
   - Java: [Junit](https://junit.org/)
   - Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
-- For E2# tests
+- For E2E tests
   - any of the unit test or integration test tools
   - New Relic
   - testRigor
