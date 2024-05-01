@@ -12,7 +12,7 @@ A test is not a proof. We cannot even prove the correctness of a simple program 
 ### Unit Tests
 A unit is the smallest testable part of an application or domain context. A unit might be a function, class, or small set of codependent classes like `LinkedList` and `LinkedListNode`. 
 
-So, a unit test evaluates the behavior of a unit in isolation. Validating behavior is the what not the why. I'll cover the why later.
+So, a unit test evaluates the behavior of a unit in isolation. Behavior evaluation is the what not the why. I'll cover the why later.
 
 ### Test Tools
   - C#: [Xunit](https://xunit.net/)
