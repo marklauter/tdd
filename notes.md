@@ -20,9 +20,8 @@ Common unit test tools for unit tests:
 - Python [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
 
 ### Integration Tests
-When we combine [units](#unit-tests) into an interconnected set, we are performing integration. So, an integration test evaluates the behavior of, or interactions between, a set of interdepdendent units.
+When we combine [units](#unit-tests) into an interconnected set, we are performing integration. So, an integration test evaluates the behavior of, or interactions between, a set of interdependent units.
 
-- verifies interaction between sets of components. test tool: Xunit
 Common unit test tools:
 - C#: [Xunit](https://xunit.net/)
 - Java: [Junit](https://junit.org/)
