@@ -3,10 +3,18 @@
 ## What's a test?
 A test is an examination of facts that confirms a hypothesis.
 
+Software engineers write tests to evaluate the behavior of programs or components in isolation.
+
+A test is not a proof. We cannot even prove the correctness of a simple program that adds two integers, x and y, for every possible combination of x and y.
+
 ## What are some kinds of tests?
 
 ### Unit Tests
-- verifies individual code components, like classes or functions, in isolation. test tool: Xunit
+- validate behavior of individual code components, like classes or functions, in isolation.
+- test tools
+  - C# Xunit
+  - Java Junit
+  - Python unittest, pytest
 
 ### Integration Test
 - verifies interaction between sets of components. test tool: Xunit
