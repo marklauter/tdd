@@ -1,7 +1,7 @@
 # TDD notes
 
 ## what is a test
-A test is an examination of facts to confirm an hypothesis.
+A test is an examination of facts that confirms hypothesis.
 
 ## what are the kinds of tests
 - unit - verifies individual code components, like classes or functions, in isolation. test tool: Xunit
