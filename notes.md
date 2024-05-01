@@ -17,19 +17,26 @@ So, a unit test evaluates the behavior of a unit in isolation. Behavior evaluati
 Common unit test tools for unit tests:
 - C#: [Xunit](https://xunit.net/)
 - Java: [Junit](https://junit.org/)
-- Python [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
+- Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
 
 ### Integration Tests
 When we combine [units](#unit-tests) into an interconnected set, we are performing integration. So, an integration test evaluates the behavior of, or interactions between, a set of interdependent units.
 
+A common misconception is that integration tests require a fully deployed system or application. Tests run against a deployed system are called [end-to-end tests](#end-to-end-tests).
+
 Common unit test tools:
 - C#: [Xunit](https://xunit.net/)
 - Java: [Junit](https://junit.org/)
-- Python [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
-
+- Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
 
 ### End-to-End Tests
 - verifies use case scenarios, or workflows, against the deployed application. test tool: Xunit
+
+Common unit test tools:
+- C#: [Xunit](https://xunit.net/)
+- Java: [Junit](https://junit.org/)
+- Python: [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
+- Other: New Relic, testRigor, Headspin, Nightwatch, Mabl, Avo Assure, SmartBear, Mobot, Cypress, Testcafe
 
 ### Static Code Analysis
 - (hints, warnings, sonar)
