@@ -14,14 +14,20 @@ A unit is the smallest testable part of an application or domain context. A unit
 
 So, a unit test evaluates the behavior of a unit in isolation. Behavior evaluation is the what not the why. I'll cover the why later.
 
-Common unit test tools:
+Common unit test tools for unit tests:
 - C#: [Xunit](https://xunit.net/)
 - Java: [Junit](https://junit.org/)
 - Python [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
 
 ### Integration Tests
-Integration is what we call the coupling a set of independent units (see [Unit Tests](#unit-tests).
+When we combine [units](#unit-tests) into an interconnected set, we are performing integration. So, an integration test evaluates the behavior of, or interactions between, a set of interdepdendent units.
+
 - verifies interaction between sets of components. test tool: Xunit
+Common unit test tools:
+- C#: [Xunit](https://xunit.net/)
+- Java: [Junit](https://junit.org/)
+- Python [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
+
 
 ### End-to-End Tests
 - verifies use case scenarios, or workflows, against the deployed application. test tool: Xunit
