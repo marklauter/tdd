@@ -14,10 +14,10 @@ A unit is the smallest testable part of an application or domain context. A unit
 
 So, a unit test evaluates the behavior of a unit in isolation. Validating behavior is the what not the why. I'll cover the why later.
 
-- test tools
-  - C# Xunit
-  - Java Junit
-  - Python unittest, pytest
+### Test Tools
+  - C#: [Xunit](https://xunit.net/)
+  - Java: [Junit](https://junit.org/)
+  - Python [unittest](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/)
 
 ### Integration Test
 - verifies interaction between sets of components. test tool: Xunit
