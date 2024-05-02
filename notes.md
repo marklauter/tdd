@@ -34,12 +34,9 @@ Static code analysis tools review source code for correctness, best practices, a
 IDEs manage static analysis through the [editorconfig file](https://editorconfig.org/). 
 
 ### Dynamic Analysis
-Dynamic analysis refers to the study of a system under real-world conditions. This is achieved through the analysis of logs and metrics. Dynamic analysis is closely related to the field of system reliability engineering.
+Dynamic analysis refers to the study of a system under real-world conditions. The goal is to find runtime issues like memory leaks, performance issues, and reliability issues. Analyzers review logs and metrics. Specialized tools perform load testing, simulate system outages, etc. Dynamic analysis is related to the field of system reliability engineering (SRE).
 
-- purpose identify runtime issues like memory leaks and performance issues.
-- test tool: OWASP ZAP, etc
-
-### Some common test tools
+### Common Test Tools
 - For unit tests and integration tests
   - C#: [Xunit](https://xunit.net/)
   - Java: [Junit](https://junit.org/)
@@ -58,7 +55,7 @@ Dynamic analysis refers to the study of a system under real-world conditions. Th
   - Testcafe
 
 ## what's the point of /unit/ testing
-- what's a unit? the smallest possible source code block that provides value within a domain context
+- wip
   
 important
 - rapid feedback loop - iteration over the domain context helps developer learn - faster is better
