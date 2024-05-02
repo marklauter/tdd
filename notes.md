@@ -19,19 +19,23 @@ When we combine [units](#unit-tests) into an interconnected set, we are performi
 
 So, an integration test evaluates the behavior of, or interactions between, a set of interdependent units.
 
-A common misconception is that integration tests are always applied to deployed system or application. See the section on [end-to-end testing](#end-to-end-tests).
+A common misconception is that integration tests are always applied to a deployed system or application. See the section on [end-to-end testing](#end-to-end-tests).
 
 ### End-to-End Tests
 End-to-end generally means "all aspects of" a system, process, or domain context. Within the context of software testing, end-to-end refers to the execution of a workflow from start to finish.
 
-So, an end-to-end test evaluates a system as it performs a particular workflow. This includes interactions with external systems such as databases and APIs. But don't confuse end-to-end tests with [integration tests](#integration-tests). The difference is the scope. While an end-to-end test encompasses the entirety of the system and its dependencies, integration tests limit scope to a smaller set of interconnected components.
+So, an end-to-end test evaluates a system as it performs a particular workflow. This includes interactions with external systems such as databases and APIs. 
+
+But don't confuse end-to-end tests with [integration tests](#integration-tests). The difference is the scope. While an end-to-end test encompasses the entirety of the system and its dependencies, the scope of integration tests is limited to a smaller set of interconnected components.
 
 ### Static Code Analysis
-- (hints, warnings, sonar)
-- scan code on merge for best practice conformity, secrets, maintainability.
-- test tool: LINT, Sonar, Roslyn. related: editorconfig
+Static code analysis tools review source code for correctness, best practices, anti-patterns, code smells, and vulnerabilities. Advanced analysis was once the domain of dedicated tools like SonarQube. Today compilers, like Roslyn, are full-featured static analyzers. The first guardian of quality is the compiler or linter. A professional does not tolerate hints nor warnings.
 
-### Dynamic Analysis 
+IDEs manage static analysis through the [editorconfig file](https://editorconfig.org/). 
+
+### Dynamic Analysis
+Dynamic analysis refers to the study of a system under real-world conditions. This is achieved through the analysis of logs and metrics. Dynamic analysis is closely related to the field of system reliability engineering.
+
 - purpose identify runtime issues like memory leaks and performance issues.
 - test tool: OWASP ZAP, etc
 
