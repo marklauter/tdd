@@ -1,4 +1,5 @@
 # Software Test Notes
+Real programmers build the test harness as they code. Testing is not a separate task. 
 
 ## What's a test?
 A test is an examination of facts that confirms a hypothesis.
